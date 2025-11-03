@@ -1,6 +1,6 @@
-# Cosmos Vault Index
+# Cosmos Vault IIITDM Index
 
-The **Cosmos Vault Index** is the central gateway for all semester repositories of IIITDM materials, curated by students for students.
+The **Cosmos Vault IIITDM Index** is the central gateway for all semester repositories of IIITDM materials, curated by students for students.
 
 > A modular academic archive — split by semester for faster access and easier contribution.
 
