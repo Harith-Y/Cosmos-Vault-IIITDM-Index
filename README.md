@@ -30,7 +30,7 @@ The **Cosmos Vault Index** is the central gateway for all semester repositories 
 ## How to Contribute
 
 1. Choose the semester you want to update.
-2. Follow its specific [`CONTRIBUTING.md`](./CONTRIBUTING.md) file.
+2. Follow its specific `CONTRIBUTING.md` file.
 3. For meta updates (adding new repos or links), edit this [`README.md`](./README.md) and submit a PR.
 
 ---
