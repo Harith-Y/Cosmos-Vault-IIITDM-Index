@@ -1,0 +1,17 @@
+name: "Add New Material"
+description: "Propose adding new notes, assignments, or references."
+body:
+  - type: input
+    id: subject
+    attributes:
+      label: "Subject Name"
+      placeholder: "e.g., Data Structures"
+  - type: textarea
+    id: description
+    attributes:
+      label: "Material Description"
+      placeholder: "What topic/week does it cover?"
+  - type: input
+    id: link
+    attributes:
+      label: "Drive or File Link (optional)"
