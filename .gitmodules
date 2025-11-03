@@ -4,3 +4,6 @@
 [submodule "Sem 1"]
 	path = Sem 1
 	url = https://github.com/Harith-Y/Cosmos-Vault-IIITDM-Sem1.git
+[submodule "Sem 2"]
+	path = Sem 2
+	url = https://github.com/Harith-Y/Cosmos-Vault-IIITDM-Sem2.git
