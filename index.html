@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cosmos Vault IIITDM — Index</title>
+  <meta name="description" content="Cosmos Vault IIITDM Index — central portal for semester repositories"> 
+  <link rel="icon" href="data:,"><style>
+  /* Minimal modern CSS — single-file for GitHub Pages */
+  :root{
+    --bg:#0f1724; --card:#0b1220; --muted:#94a3b8; --accent:#7c3aed;
+    --glass: rgba(255,255,255,0.04);
+    --glass-2: rgba(255,255,255,0.03);
+    --max-width:1100px;
+    color-scheme: dark;
+  }
+  html,body{height:100%;margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial; background: linear-gradient(180deg,var(--bg),#071022 80%); color:#e6eef8}
+  .wrap{max-width:var(--max-width);margin:40px auto;padding:28px}
+  header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+  .brand{display:flex;gap:12px;align-items:center}
+  .logo{width:56px;height:56px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(135deg,#0ea5e9,#7c3aed);font-weight:700}
+  h1{font-size:20px;margin:0}
+  p.lead{margin:0;color:var(--muted);font-size:13px}
+  nav .btn{background:var(--glass);border:1px solid rgba(255,255,255,0.04);padding:8px 12px;border-radius:10px;color:#cfe7ff;text-decoration:none;font-size:13px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:26px}
+  .card{background:linear-gradient(180deg,var(--card),rgba(10,14,22,0.7));border-radius:14px;padding:18px;border:1px solid rgba(255,255,255,0.03);box-shadow:0 6px 18px rgba(3,7,18,0.6);backdrop-filter: blur(6px);}
+  .card h3{margin:0 0 8px 0;font-size:16px}
+  .card p{margin:0;color:var(--muted);font-size:13px}
+  .card .meta{display:flex;justify-content:space-between;align-items:center;margin-top:12px}
+  .tag{font-size:12px;padding:6px 8px;border-radius:999px;background:var(--glass-2);border:1px solid rgba(255,255,255,0.02)}
+  .cta{display:inline-block;padding:8px 10px;border-radius:10px;text-decoration:none;font-weight:600;border:1px solid rgba(255,255,255,0.04)}
+  footer{margin-top:34px;color:var(--muted);font-size:13px;padding:18px 0;border-top:1px dashed rgba(255,255,255,0.03)}
+  .search{display:flex;gap:8px;align-items:center}
+  .search input{background:transparent;border:1px solid rgba(255,255,255,0.04);padding:8px 12px;border-radius:10px;color:inherit;min-width:220px}
+  @media (max-width:640px){.wrap{margin:18px;padding:16px}.brand h1{font-size:16px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo">CV</div>
+        <div>
+          <h1>Cosmos Vault IIITDM — Index</h1>
+          <p class="lead">A central portal for semester repositories. Choose a semester below to browse materials without cloning the entire archive.</p>
+        </div>
+      </div>
+      <nav>
+        <div class="search">
+          <input id="q" placeholder="Search repos, subjects or files..." aria-label="search"/>
+          <a class="btn" href="https://github.com/Harith-Y/Cosmos-Vault-IIITDM-Index">View on GitHub</a>
+        </div>
+      </nav>
+    </header>
+
+    <section style="margin-top:22px">
+      <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;">
+        <span class="tag">Public</span>
+        <span class="tag">Education</span>
+        <span class="tag">IIITDM</span>
+        <a class="cta" href="#contribute">How to contribute</a>
+      </div>
+
+      <div class="grid" id="cards">
+        <!-- Example semester cards; update hrefs to the actual semester repo URLs -->
+        <article class="card" data-title="Sem 1">
+          <h3>🧠 Semester 1 — Cosmos-Vault-IIITDM-Sem1</h3>
+          <p>Foundations: Programming, Maths, Introductory CS. Lecture notes, labs, and assignments.</p>
+          <div class="meta">
+            <span class="tag">Size: small</span>
+            <a class="cta" id="link-sem1" href="https://github.com/Harith-Y/Cosmos-Vault-IIITDM-Sem1" target="_blank">Open Repo</a>
+          </div>
+        </article>
+
+        <article class="card" data-title="Sem 2">
+          <h3>🧩 Semester 2 — Cosmos-Vault-IIITDM-Sem2</h3>
+          <p>DSA and DE. Labs and reference notes.</p>
+          <div class="meta">
+            <span class="tag">Size: medium</span>
+            <a class="cta" href="https://github.com/Harith-Y/Cosmos-Vault-IIITDM-Sem2" target="_blank">Open Repo</a>
+          </div>
+        </article>
+
+        <article class="card" data-title="Sem 3">
+          <h3>🔭 Semester 3 — Cosmos-Vault-IIITDM-Sem3</h3>
+          <p>LA, OOPS, DAA, and DLD. Code examples, labs, and project reports.</p>
+          <div class="meta">
+            <span class="tag">Size: large</span>
+            <a class="cta" href="https://github.com/Harith-Y/Cosmos-Vault-IIITDM-Sem3" target="_blank">Open Repo</a>
+          </div>
+        </article>
+
+        <article class="card" data-title="Sem 4">
+          <h3>⚙️ Semester 4 — Cosmos-Vault-IIITDM-Sem4</h3>
+          <p>PnS, COA, ToC and DBMS. Projects and datasets (LFS or external links).</p>
+          <div class="meta">
+            <span class="tag">Size: large</span>
+            <a class="cta" href="https://github.com/Harith-Y/Cosmos-Vault-IIITDM-Sem4" target="_blank">Open Repo</a>
+          </div>
+        </article>
+
+        <article class="card" data-title="Sem 5">
+          <h3>⚙️ Semester 5 — Cosmos-Vault-IIITDM-Sem5</h3>
+          <p>OS, CN and CD. Code examples and Labs</p>
+          <div class="meta">
+            <span class="tag">Size: large</span>
+            <a class="cta" href="https://github.com/Harith-Y/Cosmos-Vault-IIITDM-Sem5" target="_blank">Open Repo</a>
+          </div>
+        </article>
+
+      </div>
+
+      <div id="contribute" style="margin-top:28px">
+        <h2 style="margin:0 0 8px 0">How to contribute</h2>
+        <p style="margin:0 0 10px 0;color:var(--muted)">Use the contributing guidelines in each semester repo. To avoid downloading everything, use <code>git sparse-checkout</code> or access single files from the GitHub UI.</p>
+        <ul style="color:var(--muted);font-size:13px">
+          <li>Fork the semester repo you want to update.</li>
+          <li>Use a branch like <code>add-week-3-notes</code>.</li>
+          <li>Open a PR with a clear description and small file sizes.</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap">
+        <div>© Cosmos Vault • Maintained by <a href="https://github.com/Harith-Y" style="color:inherit;text-decoration:underline">Harith-Yerragolam</a></div>
+        <div style="color:var(--muted)">Built with ❤️ — GitHub Pages</div>
+      </div>
+    </footer>
+  </div>
+
+<script>
+// Simple client-side search for cards
+const input = document.getElementById('q');
+const cards = Array.from(document.querySelectorAll('#cards .card'));
+input.addEventListener('input', ()=>{
+  const q = input.value.trim().toLowerCase();
+  if(!q){ cards.forEach(c=>c.style.display=''); return; }
+  cards.forEach(c=>{
+    const t = c.getAttribute('data-title') + ' ' + c.innerText;
+    c.style.display = t.toLowerCase().includes(q) ? '' : 'none';
+  })
+});
+</script>
+</body>
+</html>
