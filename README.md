@@ -10,7 +10,7 @@ The **Cosmos Vault IIITDM Index** is the central gateway for all semester reposi
 
 | Semester | Repository | Description |
 |-----------|-------------|-------------|
-| Sem 1 | [Cosmos-Vault-IIITDM-Sem1](https://github.com/Harith-Y/Cosmos-Vault-IIITDM-Sem1) | PSP |
+| Sem 1 | [Cosmos-Vault-IIITDM-Sem1](https://github.com/Harith-Y/Cosmos-Vault-IIITDM-Sem1) | Calculus, PSP |
 | Sem 2 | [Cosmos-Vault-IIITDM-Sem2](https://github.com/Harith-Y/Cosmos-Vault-IIITDM-Sem2) | DSA, DE |
 | Sem 3 | [Cosmos-Vault-IIITDM-Sem3](https://github.com/Harith-Y/Cosmos-Vault-IIITDM-Sem3) | DLD, DAA, OOPS, LA |
 | Sem 4 | [Cosmos-Vault-IIITDM-Sem4](https://github.com/Harith-Y/Cosmos-Vault-IIITDM-Sem4) | DBMS, ToC, PnS, COA |
@@ -43,3 +43,4 @@ All content is distributed under the [MIT License](./LICENSE).
 
 ## Credits
 Maintained by **[Harith Yerragolam](https://github.com/Harith-Y)** and the **Cosmos Vault Contributors** community.
+
